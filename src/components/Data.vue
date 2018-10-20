@@ -1,5 +1,5 @@
 <template>
-	<div class="names">
+	<div class="datas">
 		<h2>App crud</h2>
 		
 		<!-- Formulario para el registro de personas -->
@@ -10,6 +10,7 @@
 			<div class="card-body">
 				<form>
 					<div class="form-row">
+						<input type="hidden" id="idlist">
 						<div class="form-group col-md-4 mb-3">
 							<label for="nombres">Nombres:</label>
 							<input type="text" id="nombres" class="form-control" placeholder="Ej: Alan">

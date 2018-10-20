@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Names from '@/components/Names'
-import NamesPage from '@/components/NamesPage'
+import Data from '@/components/Data'
+import DataPage from '@/components/DataPage'
 
 Vue.use(Router)
 
@@ -9,13 +9,13 @@ export default new Router({
 	routes: [
 		{
 			path: '/',
-			name: 'Names',
-			component: Names
+			name: 'Data',
+			component: Data
 		},
 		{
 			path: '/',
-			name: 'NamesPage',
-			component: NamesPage
+			name: 'DataPage',
+			component: DataPage
 		}
 	]
 })

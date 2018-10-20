@@ -1,18 +1,18 @@
 <template>
   <div id="app">
     <div class="container">
-      <Names/>
+      <Data/>
     </div>
   </div>
 </template>
 
 <script>
-import Names from '@/components/Names'
+import Data from '@/components/Data'
 
 export default {
   name: 'App',
   components: {
-    Names
+    Data
   }
 }
 </script>
